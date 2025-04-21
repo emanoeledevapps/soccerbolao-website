@@ -62,10 +62,10 @@ export function StatsCard({ alignRight, label, value, suffix }: Props) {
   return (
     <div className={`flex w-full ${alignRight && 'justify-end'} mt-[-20px]`}>
       <div 
-        className="flex flex-col justify-center h-[150px] w-[380px] rounded-2xl p-3 bg-white shadow-2xl border-2 shadow-black"
+        className="flex flex-col justify-center h-[150px] w-[200px] rounded-2xl p-3 bg-white shadow-2xl border-2 shadow-black md:w-[380px]"
         ref={cardRef}
       >
-        <h4 className="font-bold text-5xl text-green-1">
+        <h4 className="font-bold text-2xl text-green-1 md:text-5xl">
           {Intl.NumberFormat('pt-BR').format(displayValue)} {suffix && suffix}
         </h4>
         <p className="text-gray-1">{label}</p>
