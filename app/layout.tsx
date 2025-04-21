@@ -1,10 +1,17 @@
 import type { Metadata } from 'next'
+import { Sora } from 'next/font/google'
 import '@/styles/globals.css'
  
 export const metadata: Metadata = {
   title: 'Home',
   description: 'Welcome to Next.js',
 }
+
+const soraFont = Sora({
+	variable: '--font-sora',
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800']
+})
 
 export default function RootLayout({
 	// Layouts must accept a children prop.
@@ -15,7 +22,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="pt-BR">
-			<body>{children}</body>
+			<body className={`${soraFont.variable} antialiased`}>
+        {children}
+      </body>
 		</html>
 	)
 }
