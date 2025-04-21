@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <HeroHome />
 
-      <main className="my-20 container mx-auto px-32">
+      <main className="my-20 container mx-auto px-5 md:px-10 lg:px-32">
         <Emphasis />
       </main>
     </>
