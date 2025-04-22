@@ -3,6 +3,7 @@ import { Header } from '@/components/Header/Header'
 import { HeroHome } from './components/HeroHome'
 import { Emphasis } from './components/Emphasis/Emphasis'
 import { CommunityStats } from './components/CommunityStats/CommunityStats'
+import { Footer } from '@/components/Footer/Footer'
  
 export const metadata: Metadata = {
   title: 'My Page Title',
@@ -19,6 +20,8 @@ export default function Home() {
 
         <CommunityStats />
       </main>
+
+      <Footer />
     </>
   )
 }
