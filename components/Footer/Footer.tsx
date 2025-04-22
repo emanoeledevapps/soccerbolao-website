@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="py-20 w-screen">
       <div className="container mx-auto flex flex-col items-center">
-        <div className="w-full px-5 flex items-center justify-between h-full lg:px-40">
+        <div className="w-full px-5 flex items-center justify-between h-full md:px-10 lg:px-32">
           <div className="flex items-center gap-3">
             <Image
               src={Logo}
@@ -24,9 +24,9 @@ export function Footer() {
           </Link>
         </div>
 
-        <div className="h-[1px] w-[80%] mt-5 bg-gray-1"/>
+        <div className="h-[1px] w-[85%] mt-5 bg-gray-1"/>
 
-        <div className="w-full px-5 flex flex-col items-center justify-between h-full mt-5 gap-5 lg:px-40 md:flex-row">
+        <div className="w-full px-5 flex flex-col items-center justify-between h-full mt-5 gap-5 md:px-10 lg:px-32 md:flex-row">
           <p className="text-gray-p text-sm text-center">Soccer Bolão - Todos os direitos reservados</p>
 
           <div className="flex items-center gap-5">

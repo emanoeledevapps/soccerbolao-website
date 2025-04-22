@@ -5,7 +5,7 @@ import Logo from '@/public/images/logo.png'
 export function Header() {
   return (
     <header className="h-20 w-screen bg-gray-1">
-      <div className="container mx-auto px-5 flex items-center justify-between h-full md:px-10">
+      <div className="container mx-auto px-5 flex items-center justify-between h-full md:px-10 lg:px-32">
         <Link 
           className="flex items-center gap-3"
           href="/"

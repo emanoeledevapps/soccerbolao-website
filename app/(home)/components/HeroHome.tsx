@@ -16,7 +16,7 @@ export function HeroHome() {
         <p className="text-gray-p max-w-[500px] text-center md:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 
         <Link
-          className="hidden w-fit mt-5 px-10 h-10 text-sm rounded-2xl bg-green-1 text-white font-semibold items-center hover:bg-green-1/90 duration-200 md:text-base md:flex"
+          className="hidden w-fit mt-5 px-10 h-10 text-sm rounded-2xl bg-green-1 text-white font-semibold items-center justify-center hover:bg-green-1/90 duration-200 md:text-base md:flex"
           href="/download"
         >
           Baixe agora nosso APP
@@ -33,7 +33,7 @@ export function HeroHome() {
       />
 
       <Link
-        className="w-full flex mt-5 px-10 h-10 text-sm rounded-2xl bg-green-1 text-white font-semibold items-center hover:bg-green-1/90 duration-200 md:text-base md:hidden"
+        className="w-full flex mt-5 px-10 h-10 text-sm rounded-2xl bg-green-1 text-white font-semibold items-center justify-center hover:bg-green-1/90 duration-200 md:text-base md:hidden"
         href="/download"
       >
         Baixe agora nosso APP
