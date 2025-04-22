@@ -17,7 +17,6 @@ export default function Home() {
 
       <main className="my-20 container mx-auto px-5 md:px-10 lg:px-32">
         <Emphasis />
-
         <CommunityStats />
       </main>
 
