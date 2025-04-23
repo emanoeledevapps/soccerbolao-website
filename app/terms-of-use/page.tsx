@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://soccerbolao.com.br/terms-of-use',
     locale: 'pt-br',
     siteName: 'Soccer Bolão',
-    images: 'https://soccerbolao.com.br/assets/images/og.png'
+    images: 'https://www.soccerbolao.com.br/images/og.png'
   },
   robots: { index: true, follow: true }
 }
