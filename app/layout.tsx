@@ -1,11 +1,5 @@
-import type { Metadata } from 'next'
 import { Sora } from 'next/font/google'
 import '@/styles/globals.css'
- 
-export const metadata: Metadata = {
-  title: 'Home',
-  description: 'Welcome to Next.js',
-}
 
 const soraFont = Sora({
 	variable: '--font-sora',
@@ -21,7 +15,7 @@ export default function RootLayout({
 	children: React.ReactNode
 }) {
 	return (
-		<html lang="pt-BR">
+		<html lang="pt-br">
 			<body className={`${soraFont.variable} antialiased`}>
         {children}
       </body>

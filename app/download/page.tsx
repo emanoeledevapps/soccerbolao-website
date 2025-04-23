@@ -9,9 +9,20 @@ import InternetIcon from '@/public/icons/internet.png'
 import { Footer } from '@/components/Footer/Footer'
 
 export const metadata: Metadata = {
-  title: 'My Page Title',
+  title: 'Baixar Soccer Bolão - Diversão para quem ama futebol',
+  description: 'Participe dos maiores bolões de futebol com seus amigos! Palpite no Brasileirão, Copa do Brasil e Super Mundial 2025. 100% gratuito, sem apostas. Baixe agora!',
+  keywords: '="download Soccer Bolão, app de bolão de futebol, baixar bolão 2025, palpites futebol app, bolão Brasileirão 2025, Copa do Brasil bolão, Super Mundial de Clubes, app de palpites esportivos, jogo de futebol com amigos, bolão grátis Android',
+  openGraph: {
+    type: 'website',
+    title: 'Baixar Soccer Bolão - Diversão para quem ama futebol',
+    description: '',
+    url: 'https://soccerbolao.com.br/download',
+    locale: 'pt-br',
+    siteName: 'Soccer Bolão',
+    images: 'https://soccerbolao.com.br/assets/images/og.png'
+  },
+  robots: { index: true, follow: true }
 }
-
 
 export default function Download() {
   return (
@@ -35,7 +46,7 @@ export default function Download() {
             <Link
               href="https://play.google.com/store/apps/details?id=com.emanoeledevapps.bolaofutebol"
               target="_blank"
-              rel="noopener noreferer"
+              rel="noopener noreferrer"
               className="text-green-1 hover:underline text-center"
             >
               Clique aqui para baixar

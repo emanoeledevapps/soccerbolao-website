@@ -1,14 +1,14 @@
 import Image from "next/image";
+import { CircleDot } from "lucide-react";
 import Image1 from '@/public/images/how-do-it-works-1.png'
 import Image2 from '@/public/images/how-do-it-works-2.png'
 import Image3 from '@/public/images/how-do-it-works-3.png'
-import { CircleDot } from "lucide-react";
 
 export function HowDoesItWorks() {
   return (
     <section className="flex flex-col gap-10 my-20">
       <div className="flex items-center gap-5">
-        <div className="md:flex flex-1 h-1 bg-green-1 hidden" />
+        <div className="md:flex flex-1 h-1 bg-green-1 hidden rounded-xl" />
         <h3 className="text-white text-center font-bold text-2xl max-w-[400px] md:text-start md:text-4xl">Uma forma simples de jogar</h3>
       </div>
 
@@ -82,8 +82,8 @@ interface InformationItemProps {
 function InformationItem({ text }: InformationItemProps) {
   return (
     <div className="flex ites-center gap-3">
-      <CircleDot className="text-green-1" />
-      <p className="text-gray-p">{text}</p>
+      <CircleDot className="text-green-1 min-w-3 min-h-3" />
+      <p className="text-gray-p max-w-[80%] lg:max-w-full">{text}</p>
     </div>
   )
 }

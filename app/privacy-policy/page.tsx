@@ -3,9 +3,20 @@ import { Header } from '@/components/Header/Header'
 import { Footer } from '@/components/Footer/Footer'
 
 export const metadata: Metadata = {
-  title: 'My Page Title',
+  title: 'Política de Privacidade – Soccer Bolão',
+  description: 'Saiba como o app Soccer Bolão coleta, utiliza e protege suas informações. Nossa prioridade é a sua privacidade e segurança de dados.',
+  keywords: 'política de privacidade Soccer Bolão, proteção de dados, privacidade no app, dados pessoais, segurança da informação, coleta de dados, LGPD, confidencialidade, app de bolão seguro',
+  openGraph: {
+    type: 'website',
+    title: 'Política de Privacidade – Soccer Bolão',
+    description: 'Saiba como o app Soccer Bolão coleta, utiliza e protege suas informações. Nossa prioridade é a sua privacidade e segurança de dados.',
+    url: 'https://soccerbolao.com.br/privacy-policy',
+    locale: 'pt-br',
+    siteName: 'Soccer Bolão',
+    images: 'https://soccerbolao.com.br/assets/images/og.png'
+  },
+  robots: { index: true, follow: true }
 }
-
 
 export default function PrivacyPolicy() {
   return (
