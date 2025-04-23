@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'Termos de Uso – Soccer Bolão',
     description: 'Confira os Termos de Uso do app Soccer Bolão. Entenda as regras, responsabilidades e diretrizes para uso da nossa plataforma de entretenimento esportivo.',
-    url: 'https://soccerbolao.com.br/privacy-policy',
+    url: 'https://soccerbolao.com.br/terms-of-use',
     locale: 'pt-br',
     siteName: 'Soccer Bolão',
     images: 'https://soccerbolao.com.br/assets/images/og.png'
