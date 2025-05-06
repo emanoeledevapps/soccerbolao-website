@@ -5,6 +5,7 @@ import { Emphasis } from './components/Emphasis/Emphasis'
 import { CommunityStats } from './components/CommunityStats/CommunityStats'
 import { Footer } from '@/components/Footer/Footer'
 import { HowDoesItWorks } from './components/HowDoesItWorks/HowDoesItWorks'
+import { WarningBets } from '@/components/WarningBets/WarningBets'
 
 export const metadata: Metadata = {
   title: 'Soccer Bolão - Diversão para quem ama futebol',
@@ -32,6 +33,7 @@ export default function Home() {
         <Emphasis />
         <HowDoesItWorks />
         <CommunityStats />
+        <WarningBets />
       </main>
 
       <Footer />
