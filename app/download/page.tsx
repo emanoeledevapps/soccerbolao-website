@@ -7,6 +7,7 @@ import AndroidIcon from '@/public/icons/android.png'
 import IosIcon from '@/public/icons/ios.png'
 import InternetIcon from '@/public/icons/internet.png'
 import { Footer } from '@/components/Footer/Footer'
+import { WarningBets } from '@/components/WarningBets/WarningBets'
 
 export const metadata: Metadata = {
   title: 'Baixar Soccer Bolão - Diversão para quem ama futebol',
@@ -73,6 +74,8 @@ export default function Download() {
             <p className="text-gray-p">Estamos trabalhando para disponibilizar uma versão que funcione no navegador e assim também para dispositivos iOS</p>
           </div>
         </div>
+
+        <WarningBets />
       </main>
 
       <Footer />
