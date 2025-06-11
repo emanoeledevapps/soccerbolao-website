@@ -68,6 +68,9 @@ export default function BolaoPremiado() {
           ⚠️ Atenção: nunca solicitaremos códigos ou ligações. Apenas pediremos
           a sua chave PIX cadastrada em seu nome.
         </p>
+        <p className="text-yellow-500 mt-2">
+          ⚠️ Caso seja um dos ganhadores, entraremos em contato com o email <strong>contato@soccerbolao.com.br</strong>. Os ganhadores terão um prazo de 48 horas para responder, caso contrário será eliminado e sua posição será herdada.
+        </p>
 
         <h3 className="font-bold mt-10 mb-3">📜 Regras</h3>
         <ul className="list-disc ml-8 mt-2 space-y-1">
