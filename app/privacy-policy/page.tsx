@@ -34,29 +34,40 @@ export default function PrivacyPolicy() {
 
         <h3 className="mt-10">
           A sua privacidade é fundamental para nós. Esta Política de Privacidade
-          explica como coletamos, usamos, protegemos e compartilhamos seus dados
-          pessoais ao usar o aplicativo Soccer Bolão.
+          explica de forma clara como coletamos, usamos, protegemos e
+          compartilhamos seus dados pessoais ao usar o aplicativo Soccer Bolão,
+          em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº
+          13.709/2018 – LGPD).
         </h3>
 
         <h3 className="font-bold mt-10 mb-3">1. Informações que Coletamos</h3>
-        <p>Ao utilizar o aplicativo, coletamos os seguintes dados pessoais:</p>
+        <p>
+          Ao utilizar o aplicativo, podemos coletar os seguintes dados pessoais:
+        </p>
         <p className="ml-5">
           - Nome completo: Para identificar e personalizar sua participação;
         </p>
         <p className="ml-5">
-          - E-mail: Para comunicação sobre sua conta e envio de notificações;
+          - E-mail: Para comunicação sobre sua conta, envio de notificações e
+          recuperação de senha;
         </p>
         <p className="ml-5">
-          - Foto de perfil (opcional): Para personalizar sua conta;
+          - Foto de perfil (opcional): Para personalizar sua conta; pode ser
+          alterada ou excluída a qualquer momento;
         </p>
         <p className="ml-5">
-          - Nome de usuário: Criado no cadastro, utilizado para identificar você
-          no app.
+          - Nome de usuário: Criado no cadastro e visível a outros usuários no
+          app;
+        </p>
+        <p className="ml-5">
+          - Dados de uso: Informações sobre interações no app, métricas e
+          preferências.
         </p>
         <p>
-          Não coletamos dados financeiros ou bancários. Pagamentos de assinatura
-          premium são realizados apenas pelo Google Payments (Android).
-          Assinaturas não disponíveis para iOS.
+          Importante: Não coletamos dados financeiros ou bancários. Pagamentos
+          de assinatura premium (quando disponíveis) são realizados
+          exclusivamente por Google Payments no Android. Assinaturas não estão
+          disponíveis para iOS.
         </p>
 
         <h3 className="font-bold mt-10 mb-3">
@@ -67,98 +78,184 @@ export default function PrivacyPolicy() {
           da LGPD:
         </p>
         <p className="ml-5">
-          - Execução de contrato (prestação do serviço do app);
+          - Execução de contrato: Para oferecer os serviços do aplicativo;
         </p>
-        <p className="ml-5">- Legítimo interesse (melhoria do serviço);</p>
         <p className="ml-5">
-          - Consentimento (quando necessário para funcionalidades ou
-          comunicações específicas);
+          - Legítimo interesse: Para melhorar recursos, prevenir fraudes e
+          garantir segurança;
         </p>
-        <p className="ml-5">- Cumprimento de obrigação legal.</p>
+        <p className="ml-5">
+          - Consentimento: Quando necessário para funcionalidades opcionais ou
+          envio de comunicações promocionais;
+        </p>
+        <p className="ml-5">
+          - Cumprimento de obrigação legal: Para atender determinações legais ou
+          de autoridades.
+        </p>
 
-        <h3 className="font-bold mt-10 mb-3">3. Uso dos Dados</h3>
-        <p>Seus dados são utilizados para:</p>
+        <h3 className="font-bold mt-10 mb-3">3. Finalidade do Uso dos Dados</h3>
+        <p>Utilizamos seus dados para:</p>
         <p className="ml-5">- Criar e gerenciar sua conta;</p>
-        <p className="ml-5">- Personalizar sua experiência;</p>
+        <p className="ml-5">- Personalizar sua experiência no app;</p>
         <p className="ml-5">
-          - Enviar notificações sobre recursos, atualizações e alterações dos
+          - Enviar notificações sobre recursos, atualizações e alterações nos
           termos;
         </p>
         <p className="ml-5">
-          - Melhorar funcionamento e segurança do aplicativo.
+          - Realizar análises de uso e métricas para melhoria do serviço;
+        </p>
+        <p className="ml-5">
+          - Garantir a segurança da plataforma e prevenir fraudes.
         </p>
 
         <h3 className="font-bold mt-10 mb-3">4. Tecnologias de Rastreamento</h3>
         <p>
-          O Soccer Bolão pode usar cookies, identificadores de dispositivo ou
-          serviços de análise, como Google Analytics ou Firebase, para entender
-          o uso do app e aprimorar recursos. Você pode desativar estas opções
-          nas configurações do seu dispositivo ou navegador.
+          Podemos usar cookies, identificadores de dispositivo e serviços de
+          análise como Google Analytics e Firebase.
+        </p>
+        <p className="ml-5">
+          - Essas ferramentas ajudam a entender como o app é utilizado e
+          aprimorar recursos;
+        </p>
+        <p className="ml-5">
+          - Você pode gerenciar ou desativar essas tecnologias nas configurações
+          do dispositivo;
+        </p>
+        <p className="ml-5">
+          - Para mais informações, consulte as políticas de privacidade do{" "}
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google
+          </a>{" "}
+          e do{" "}
+          <a
+            href="https://firebase.google.com/support/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Firebase
+          </a>
+          .
         </p>
 
         <h3 className="font-bold mt-10 mb-3">5. Exibição de Anúncios</h3>
         <p>
-          O aplicativo pode exibir anúncios de terceiros (ex: Google AdMob).
-          Estes são regidos pela política de privacidade dos próprios
-          fornecedores. O Soccer Bolão não coleta dados relativos à exibição dos
-          anúncios, nem se responsabiliza pelo conteúdo, precisão ou segurança
-          desses anúncios. Consulte a política de privacidade do provedor de
-          anúncios para mais informações.
+          O aplicativo pode exibir anúncios de terceiros (ex.: Google AdMob):
+        </p>
+        <p className="ml-5">
+          - Esses anúncios podem coletar dados conforme a política de
+          privacidade do provedor;
+        </p>
+        <p className="ml-5">
+          - Você pode gerenciar anúncios personalizados nas configurações do
+          Google:{" "}
+          <a
+            href="https://adssettings.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Configurações de anúncios
+          </a>
+          .
         </p>
 
         <h3 className="font-bold mt-10 mb-3">6. Compartilhamento de Dados</h3>
         <p>
-          Não compartilhamos seus dados pessoais com terceiros, exceto quando
-          necessário para cumprir obrigação legal ou mediante ordem de
-          autoridades competentes.
+          Não vendemos seus dados a terceiros. Podemos compartilhá-los apenas:
+        </p>
+        <p className="ml-5">
+          - Com prestadores de serviço essenciais (ex.: hospedagem, análise de
+          dados, suporte técnico), que seguem padrões de segurança compatíveis
+          com a LGPD;
+        </p>
+        <p className="ml-5">
+          - Para cumprir obrigações legais ou atender solicitações de
+          autoridades.
+        </p>
+
+        <h3 className="font-bold mt-10 mb-3">7. Retenção e Exclusão</h3>
+        <p>
+          Manteremos seus dados enquanto sua conta estiver ativa ou pelo tempo
+          necessário para cumprir obrigações legais.
+        </p>
+        <p className="ml-5">
+          - Você pode solicitar a exclusão a qualquer momento diretamente no app
+          ou pelo e-mail contato@soccerbolao.com.br;
+        </p>
+        <p className="ml-5">
+          - As solicitações serão respondidas em até 15 dias após o recebimento.
         </p>
 
         <h3 className="font-bold mt-10 mb-3">
-          7. Retenção e Exclusão dos Dados
+          8. Armazenamento e Transferência Internacional
         </h3>
         <p>
-          Seus dados serão mantidos enquanto sua conta estiver ativa ou pelo
-          período necessário para cumprir exigências legais. Você pode solicitar
-          a exclusão direta no app ou pelo e-mail contato@soccerbolao.com.br.
+          Seus dados podem ser armazenados em servidores fora do Brasil (ex.:
+          EUA, Google/Firebase):
         </p>
-
-        <h3 className="font-bold mt-10 mb-3">
-          8. Local de Armazenamento e Transferência Internacional
-        </h3>
-        <p>
-          Os dados podem ser armazenados em servidores fora do Brasil (por
-          exemplo, EUA, Google/Firebase), sempre com mecanismos de proteção
-          compatíveis com a LGPD.
+        <p className="ml-5">
+          - Garantimos que qualquer transferência internacional seguirá
+          mecanismos previstos na LGPD, como cláusulas contratuais padrão e
+          certificações de segurança.
         </p>
 
         <h3 className="font-bold mt-10 mb-3">9. Segurança dos Dados</h3>
         <p>
           Adotamos medidas técnicas e administrativas para proteger seus dados,
-          mas não podemos garantir segurança absoluta contra falhas, acessos não
-          autorizados ou ataques.
+          incluindo:
+        </p>
+        <p className="ml-5">
+          - Criptografia de dados em trânsito e em repouso;
+        </p>
+        <p className="ml-5">- Controle de acesso restrito;</p>
+        <p className="ml-5">
+          - Monitoramento e prevenção de incidentes de segurança.
+        </p>
+        <p>
+          No entanto, nenhum sistema é 100% seguro, e não podemos garantir
+          segurança absoluta contra ataques cibernéticos.
         </p>
 
         <h3 className="font-bold mt-10 mb-3">10. Direitos dos Titulares</h3>
+        <p>Você pode:</p>
+        <p className="ml-5">
+          - Confirmar se realizamos tratamento de seus dados;
+        </p>
+        <p className="ml-5">
+          - Acessar, corrigir, atualizar ou solicitar a exclusão de informações;
+        </p>
+        <p className="ml-5">- Solicitar a portabilidade dos dados;</p>
+        <p className="ml-5">- Revogar consentimentos;</p>
+        <p className="ml-5">
+          - Solicitar informações sobre o compartilhamento de dados.
+        </p>
         <p>
-          Você pode acessar, corrigir, portabilizar ou excluir seus dados, assim
-          como revogar o consentimento, conforme a LGPD. Solicitações podem ser
-          feitas pelo e-mail contato@soccerbolao.com.br.
+          Para exercer seus direitos, envie solicitação para
+          contato@soccerbolao.com.br. O prazo para resposta é de até 15 dias
+          mediante comprovação de identidade.
         </p>
 
         <h3 className="font-bold mt-10 mb-3">
-          11. Não É Aplicativo de Apostas
+          11. Não é Aplicativo de Apostas
         </h3>
         <p>
-          O Soccer Bolão não é um aplicativo de apostas esportivas. Nosso
-          objetivo é entretenimento social, sem dinheiro ou apostas financeiras.
-          A empresa não se responsabiliza por apostas realizadas por usuários em
-          outros meios ou plataformas externas.
+          O Soccer Bolão é destinado exclusivamente a entretenimento social, sem
+          apostas com dinheiro real. Não nos responsabilizamos por apostas
+          feitas por usuários em outras plataformas.
         </p>
 
         <h3 className="font-bold mt-10 mb-3">12. Alterações na Política</h3>
-        <p>
-          Podemos atualizar esta política periodicamente. Caso ocorram mudanças
-          relevantes, notificaremos você por e-mail ou aviso no aplicativo.
+        <p>Podemos atualizar esta política periodicamente:</p>
+        <p className="ml-5">
+          - Alterações relevantes serão notificadas por e-mail e/ou no
+          aplicativo antes de entrarem em vigor;
+        </p>
+        <p className="ml-5">
+          - A data da última atualização estará sempre indicada no início deste
+          documento.
         </p>
       </main>
 
