@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Suporte – Soccer Bolão",
     description: "Está precisando de ajuda com o app? Nós podemos te ajudar.",
-    url: "https://soccerbolao.com.br/terms-of-use",
+    url: "https://soccerbolao.com.br/support",
     locale: "pt-br",
     siteName: "Soccer Bolão",
     images: "https://www.soccerbolao.com.br/images/og.png",
