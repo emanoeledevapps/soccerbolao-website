@@ -3,16 +3,13 @@ import { Header } from "@/components/Header/Header";
 import { Footer } from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
-  title: "Termos de Uso – Soccer Bolão",
-  description:
-    "Confira os Termos de Uso do app Soccer Bolão. Entenda as regras, responsabilidades e diretrizes para uso da nossa plataforma de entretenimento esportivo.",
-  keywords:
-    "termos de uso Soccer Bolão, regras de uso do app, condições de uso, termos legais, uso do aplicativo, app de bolão, responsabilidade do usuário, direitos e deveres, regras Soccer Bolão",
+  title: "Suporte – Soccer Bolão",
+  description: "Está precisando de ajuda com o app? Nós podemos te ajudar.",
+  keywords: "ajuda, suporte soccer bolão, dúvidas",
   openGraph: {
     type: "website",
-    title: "Termos de Uso – Soccer Bolão",
-    description:
-      "Confira os Termos de Uso do app Soccer Bolão. Entenda as regras, responsabilidades e diretrizes para uso da nossa plataforma de entretenimento esportivo.",
+    title: "Suporte – Soccer Bolão",
+    description: "Está precisando de ajuda com o app? Nós podemos te ajudar.",
     url: "https://soccerbolao.com.br/terms-of-use",
     locale: "pt-br",
     siteName: "Soccer Bolão",
